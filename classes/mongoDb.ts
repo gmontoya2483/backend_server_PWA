@@ -17,7 +17,8 @@ export default class MongoDb {
             this._connectionURL,
             {
                 useNewUrlParser: true,
-                useCreateIndex: true
+                useCreateIndex: true,
+                useUnifiedTopology: true
             },
             callback);
     }
